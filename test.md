@@ -5,4 +5,3 @@ file
 here
 
 $y=\sin(x)$
-
