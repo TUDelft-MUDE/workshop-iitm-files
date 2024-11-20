@@ -18,8 +18,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      # - name: Set path label # (Optional)
-      #   run: echo tudelft-mude/iitm-workshop-files@main > .dl-pathlabel
+      - name: Set path label # (Optional)
+        run: echo MUDE in Madras Course Files > .dl-pathlabel
 
       - name: Run Directory Listing Script
         run: php directory-listing.php
