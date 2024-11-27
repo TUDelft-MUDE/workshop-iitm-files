@@ -28,8 +28,10 @@ jobs:
         run: |
           cd students && php ../directory-listing.php
           cd PA1 && php ../../directory-listing.php
+          cd ../WS1 && php ../../directory-listing.php
           cd ../../teachers && php ../directory-listing.php
           cd PA1 && php ../../directory-listing.php
+          cd ../WS1 && php ../../directory-listing.php
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
