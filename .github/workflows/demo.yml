@@ -30,6 +30,8 @@ jobs:
           cd PA1 && php ../../directory-listing.php
           cd ../WS1 && php ../../directory-listing.php
           cd ../GA1 && php ../../directory-listing.php
+          cd ../WS2 && php ../../directory-listing.php
+          cd ../GA2 && php ../../directory-listing.php
           cd ../../teachers && php ../directory-listing.php
           cd PA1 && php ../../directory-listing.php
           cd ../WS1 && php ../../directory-listing.php
